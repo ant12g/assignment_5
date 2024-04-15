@@ -1,0 +1,43 @@
+public class Main {
+    public static void main(String[] args) {
+        System.out.println("Hello world!");
+        BinarySearchTree<Integer> tree = new BinarySearchTree<>();
+
+        tree.insert(50);
+        tree.insert(30);
+        tree.insert(20);
+        tree.insert(40);
+        tree.insert(70);
+        tree.insert(60);
+        tree.insert(80);
+
+
+        System.out.println("Inorder traversal of the given tree");
+        tree.inorder();
+
+        System.out.println("\nDelete 20");
+        tree.deleteKey(20);
+        System.out.println("Inorder traversal of the modified tree");
+        tree.inorder();
+
+        System.out.println("\nDelete 30");
+        tree.deleteKey(30);
+        System.out.println("Inorder traversal of the modified tree");
+        tree.inorder();
+
+        System.out.println("\nDelete 50");
+        tree.deleteKey(50);
+        System.out.println("Inorder traversal of the modified tree");
+        tree.inorder();
+
+        System.out.println("\nPreorder traversal of tree is ");
+        tree.preorder();
+
+        System.out.println("\nPostorder traversal of tree is ");
+        tree.postorder();
+
+        System.out.println("\nSearch for 40 in the tree : " + tree.search(40));
+        System.out.println("Search for 100 in the tree : " + tree.search(100));
+    }
+
+}
