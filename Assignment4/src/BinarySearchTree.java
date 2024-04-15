@@ -1,3 +1,10 @@
+/*************************************************
+ File: Assignment4
+ By: Antonio Gonzalez
+ Date: 04/12/2024
+ Description: Assignment 4 Binary Search Tree.
+
+ *************************************************/
 public class BinarySearchTree<T extends Comparable<T>> {
     class Node {
         T key;
