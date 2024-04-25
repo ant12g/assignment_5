@@ -1,10 +1,12 @@
-/*************************************************
+/****************************************************************
  File: Assignment5_Objective-1
  By: Antonio Gonzalez
  Date: 04/24/2024
- Description: Implementing software pattern for BankCustomer.
+ Description: Implementing software pattern for BankCustomer
+        To understand and implement the Builder design pattern
+        for BankCustomer class.
 
- *************************************************/
+ ****************************************************************/
 // BankCustomer class
 public class BankCustomer {
     private String name;

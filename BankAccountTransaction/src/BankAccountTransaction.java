@@ -1,10 +1,12 @@
-/*************************************************
+/*********************************************************
  File: Assignment5_Objective-2
  By: Antonio Gonzalez
  Date: 04/24/2024
- Description: Implementing software pattern for BankCustomer.
-
- *************************************************/
+ Description: To understand and implement the Command
+        design pattern in Java by creating a
+        BankAccountTransaction class to perform
+        various transactions related to bank account(s)
+ ********************************************************/
 
 
 import java.time.LocalDateTime;
