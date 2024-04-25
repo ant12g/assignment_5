@@ -1,5 +1,5 @@
 /*************************************************
- File: Assignment5_Objective-1
+ File: Assignment5_Objective-2
  By: Antonio Gonzalez
  Date: 04/24/2024
  Description: Implementing software pattern for BankCustomer.
